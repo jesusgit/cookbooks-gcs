@@ -1,0 +1,13 @@
+# This is a Chef attributes file. It can be used to specify default and override
+# attributes to be applied to nodes that run this cookbook.
+
+# Set a default name
+default["starter_name"] = "Sam Doe"
+
+# For further information, see the Chef documentation (https://docs.chef.io/essentials_cookbook_attribute_files.html).
+default['starter']['miaplicacion']['allowed_ip'] ='13.84.202.197'
+default['starter']['miaplicacion']['ip'] = '10.0.0.5'
+default['starter']['miaplicacion']['port'] = '5432'
+default['starter']['miaplicacion']['database'] = 'gcs'
+default['starter']['miaplicacion']['user'] = 'gcs'
+default['starter']['miaplicacion']['pasword'] = 'gcs'
